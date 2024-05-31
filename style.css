@@ -1,0 +1,1009 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+nav{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    font-family: "Patua One";
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #111111;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+#section1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec1_img.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+    display: flex;
+}
+.div1{
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div1 h1{
+    font-size: 126px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Patua One";
+    line-height: 1;
+    margin: 80px auto 20px;
+    text-align: center;
+}
+.div1 h4{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Patua One";
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px auto;
+}
+.div1 #Reg{
+    text-align: center;
+    background-color: #f3f6fb;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 40px auto 30px;
+    font-weight: 700;
+    color: #111111;
+    padding: 15px 80px;
+    border-radius: 50px;
+}
+.div1 #Reg:hover{
+    background-color: #111111;
+    color: #f3f6fb;
+}
+#section3{
+    width: 100%;
+    height: 445px;
+    background-color: #e4e2e0;
+    display: flex;
+}
+.div5{
+    width: 1140px;
+    height: 357px;
+    margin: 44px auto;
+    display: flex;
+}
+.div5 div{
+    width: 367.46px;
+    height: 337.8px;
+    border: 9.6px solid transparent;
+}
+.div5 h1{
+    font-size: 128px;
+    font-family: "Abril Fatface";
+    font-weight: 700;
+    line-height: 1.1;
+    color: #ffffff;
+    text-align: right;
+    margin: 35px 20px 0 0;
+}
+.div5 h3{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Patua One";
+    line-height: 1;
+    color: #525b64;
+    text-align: center;
+    margin: -57px 0 0 0;
+}
+.div5 p{
+    font-size: 14px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #111111;
+    text-align: center;
+    line-height: 1.6;
+    margin: 21px auto 35px;
+}
+#section4{
+    width: 100%;
+    height: 500px;
+}
+.div9{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.div10{
+    width: 33.33333%;
+    height: 500px;
+    background-image:  linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec4_img1.jpeg);
+    background-position: 18.87% 50%;
+    background-size: cover;
+}
+.div11{
+    width: 33.33333%;
+    height: 500px;
+    background-image:  linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec4_img2.jpeg);
+    background-position: 18.87% 50%;
+    background-size: cover;
+}
+.div12{
+    width: 33.33333%;
+    height: 500px;
+    background-image:  linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec4_img3.jpeg);
+    background-position: 18.87% 50%;
+    background-size: cover;
+}
+.div9 h2{
+    font-size: 48px;
+    font-family: "Patua One";
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 53px auto 0;
+    text-align: center;
+    color: #ffffff;
+}
+.div9 h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin: 10px auto 50px;
+}
+#section5{
+    width: 100%;
+    height: 745px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec5_img.jpg);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.div13{
+    width: 677px;
+    height: 311px;
+    margin: 217px auto;
+    text-align: center;
+}
+.div13 h2{
+    font-size: 128px;
+    font-family: "Patua One";
+    font-weight: 400;
+    line-height: 1.1;
+    color: #ffffff;
+    margin: 27px 20px 0;
+}
+.div13 h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    color: #ffffff;
+    margin: 5px 20px 0;
+}
+.div13 p{
+    width: 352px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: italic;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 19px auto 27px;
+}
+#section6{
+    width: 100%;
+    height: 275px;
+    display: flex;
+}
+.div14{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.div15{
+    width: 25%;
+    height: 276px;
+    padding: 0 20px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec6_img1.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div16{
+    width: 25%;
+    height: 276px;
+    padding: 0 20px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec6_img2.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div17{
+    width: 25%;
+    height: 276px;
+    padding: 0 20px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec6_img3.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div18{
+    width: 25%;
+    height: 276px;
+    padding: 0 20px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(sec6_img4.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div14 h3{
+    font-family: "Patua One";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ffffff;
+}
+#section7{
+    width: 100%;
+    height: 961px;
+    display: flex;
+    background-color: #e4e2e0;
+}
+.div19{
+    width: 1160px;
+    height: 100%;
+    margin: auto;
+}
+.div20{
+    width: 735px;
+    height: 196px;
+    margin: 40px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div20 h2{
+    font-size: 48px ;
+    font-family: "Patua One";
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    color: #525b64;
+}
+.div21{
+    width: 1160px;
+    height: 664px;
+    margin: 11px auto 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div21 div{
+    width: 367.463px;
+    height: 312.8px;
+    border: 9.6px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div21 div:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1),-5px -5px 5px 0px rgba(255,255,255,0.1);
+    transition: 0.5s;
+}
+.div21 div img{
+    width: 121px;
+    height: 121px;
+    margin: 24px 40px 0 auto;
+}
+.div21 div h3{
+    font-size: 48px;
+    line-height: 1;
+    font-family: "Patua One";
+    color: #525b64;
+    font-weight: 400;
+    text-align: center;
+    margin: -39px auto 0;
+}
+.div21 div p{
+    width: 336px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: #111111;
+    margin: 11px auto 24px;
+}
+#section8{
+    width: 100%;
+    height: 848px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)),url(sec7_img.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.div28{
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+.div28 h2{
+    font-size: 48px;
+    font-family: "Patua One";
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    max-width: 725px;
+    margin: 90px auto;
+}
+#section9{
+    width: 100%;
+    height: 469px;
+    display: flex;
+}
+.div29{
+    width: 50%;
+    height: 100%;
+    background-image: url(sec8_img1.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div30{
+    width: 25%;
+    height: 100%;
+    background-color: #e4e2e0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div30 h2{
+    font-size: 30px;
+    line-height: 1;
+    font-family: "Patua One";
+    color: #525b64;
+    font-weight: 400;
+    text-align: left;
+    margin: 50px auto 0 0;
+}
+.div30 h3{
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+    color: #525b64;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 13px auto 0 0;
+}
+.div31{
+    width: 25%;
+    height: 100%;
+    background-image: url(sec8_img2.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section10{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+.footerdiv{
+    display: flex;
+    justify-content: center;
+    text-align: center  ;
+    font-family: "Patua One";
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.footerdiv img{
+    width: 100px;
+    margin-top: 25px;
+}
+
+.footerdiv h2{
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.footerdiv div{
+    width: 25%;
+}
+.footerdiv p{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.div36{
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+}
+.menu-button{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .div1{
+        width: 340px;
+        height: 100%;
+    }
+    .div1 h1{
+        font-size: 96px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Patua One";
+        line-height: 1;
+        margin: 80px auto 20px;
+        text-align: center;
+    }
+    .div1 h4{
+        font-size: 18px;
+    }
+    #section3{
+        width: 100%;
+        height: 1139px;
+    }
+    .div5{
+        width: 340px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div5 div{
+        width: 340px;
+        height: 337.8px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    #section4{
+        width: 100%;
+        height: 1500px;
+    }
+    .div9{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div10{
+        width: 100%;
+        height: 500px;
+    }
+    .div11{
+        width: 100%;
+        height: 500px;
+    }
+    .div12{
+        width: 100%;
+        height: 500px;
+    }
+    #section5{
+        width: 100%;
+        height: 908px;
+    }
+    .div13{
+        width: 340px;
+        height: 521px;
+        margin: auto auto;
+        text-align: center;
+    }
+    .div13 h2{
+        font-size: 90px;
+        margin: 108px auto 0;
+    }
+    .div13 h3{
+        font-size: 28px;
+        margin: 5px auto 0;
+    }
+    .div13 p{
+        width: 256px;
+        margin: 13px auto 50px;
+    }
+    #section6{
+        width: 100%;
+        height: 1104px;
+    }
+    .div14{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div15{
+        width: 100%;
+        height: 276px;
+        padding: 0;
+    }
+    .div16{
+        width: 100%;
+        height: 276px;
+        padding: 0;
+    }
+    .div17{
+        width: 100%;
+        height: 276px;
+        padding: 0;
+    }
+    .div18{
+        width: 100%;
+        height: 276px;
+        padding: 0;
+    }
+    .div14 h3{
+        font-size: 24px;
+    }
+    #section7{
+        width: 100%;
+        height: 2449px;
+    }
+    .div19{
+        width: 340px;
+        height: 100%;
+    }
+    .div20{
+        width: 328px;
+        height: 352px;
+        margin: 31px auto 0;
+        padding: 0 6px;
+    }
+    .div20 h2{
+        font-size: 40px; 
+        margin: 20px auto;
+    }
+    .div21{
+        width: 340px;
+        height: 1976px;
+        margin: 20px auto 68px;
+    }
+    .div21 div{
+        width: 340px;
+        height: 312.8px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    #section8{
+        width: 100%;
+        height: 605px;
+    }
+    .div28{
+        width: 340px;
+        height: 100%;
+    }
+    .div28 h2{
+        margin: 20px auto;
+    }
+    #section9{
+        width: 100%;
+        height: 1407px;
+        display: flex;
+        flex-direction: column;
+    }
+    .div29{
+        width: 100%;
+        height: 100%;
+    }
+    .div30{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .div30 h2{
+        text-align: center;
+        margin: 50px auto 0;
+
+    } 
+    .div30 h3{
+        text-align: center;
+        margin: 13px auto 0;
+    }
+    .div31{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width:768.5px) and (max-width:1159px){
+    .div1{
+        width: 720px;
+        height: 100%;
+    }
+    #section3{
+        width: 100%;
+        height: 533.6px;
+    }
+    .div5{
+        width: 720px;
+        height: 445.6px;
+    }
+    .div5 div{
+        width: 220.8px;
+        height: 426.4px;
+        border: 9.6px solid transparent;
+    }
+    .div5 h1{
+        font-size: 120px;
+        margin: 35px 0 0;
+    }
+    .div5 h3{
+        font-size: 40px;
+    }
+    .div10{
+        width: 273.6px;
+        height: 500px;
+    }
+    .div11{
+        width: 273.6px;
+        height: 500px;
+    }
+    .div12{
+        width: 273.6px;
+        height: 500px;
+        background-position: 34.4% 50%;
+    }
+    .div9 h2{
+        font-size: 45px;
+    }
+    .div10,.div11,.div12{
+        width: 33.333%;
+    }
+    #section5{
+        width: 100%;
+        height: 908px;
+    }
+    .div13{
+        width: 504px;
+        height: 475px;
+        margin: 217px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div13 p{
+        width: 222px;
+    }
+    #section6{
+        width: 100%;
+        height: 552px;
+    }
+    .div14{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div15{
+        width: 50%;
+        height: 276px;
+        padding: 0;
+    }
+    .div16{
+        width: 50%;
+        height: 276px;
+        padding: 0;
+    }
+    .div17{
+        width: 50%;
+        height: 276px;
+        padding: 0;
+    }
+    .div18{
+        width: 50%;
+        height: 276px;
+        padding: 0;
+    }
+    #section7{
+        width: 100%;
+        height: 1334px;
+    }
+    .div19{
+        width: 720px;
+        height: 100%;
+    }
+    .div20{
+        width: 680px;
+        height: 248px;
+        margin: 31px auto 0;
+        padding: 0 13px;
+    }
+    .div21{
+        width: 720px;
+        height: 995.4px;
+        margin: 11px auto 48px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div21 div{
+        width: 340.8px;
+        height: 312.8px;
+    }
+    #section8{
+        width: 100%;
+        height: 605px;
+    }
+    .div28{
+        width: 720px;
+        height: 100%;
+    }
+    .div28 h2{
+        font-size: 48px;
+        margin: 40px auto;
+    }
+    .div29{
+        width: 50%;
+        height: 100%;
+    }
+    .div30{
+        width: 25%;
+        height: 100%;
+    }
+    .div30 h2{
+        font-size: 26px;
+    }
+    .div30 h3{
+        font-size: 18px;
+    }
+    .div31{
+        width: 25%;
+        height: 100%;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  #section2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15)
+      ),
+      url(reg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .div2 {
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .div3 {
+    width: 570px;
+    height: 385px;
+    padding: 0 0 0 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div3 h1 {
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "Patua One";
+    color: #ffffff;
+    margin: 25px auto 0 0;
+  }
+  .div3 p {
+    width: 367px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 20px auto 25px 0;
+  }
+  .div4 {
+    width: 570px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .div4 h2 {
+    font-family: "Patua One";
+    font-size: 36px;
+    line-height: 1.1;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 55px 13px 0 auto;
+    text-align: right;
+  }
+  .div4 #form {
+    text-align: right;
+    margin: 26px 20px 40px auto;
+  }
+  .div4 .input-group {
+    padding: 0 0 0 15px;
+    margin: 0 0 15px 0;
+  }
+  .input-group input {
+    width: 369px;
+    height: 25.6px;
+    border: 2px solid transparent;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 12px;
+    text-align: right;
+  }
+  .formdiv input:focus {
+    outline: none;
+  }
+  .div2 button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: solid #ffffff;
+    background-color: transparent;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  .error {
+    color: rgb(242, 18, 18);
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: sans-serif;
+  }
+  .input-group.success input {
+    border-color: #0cc477;
+  }
+  .input-group.error input {
+    border-color: rgb(242, 18, 18);
+  }
+  @media only screen and (max-width: 768px) {
+    #section2 {
+      width: 100%;
+      height: 1007px;
+    }
+    .div2 {
+      width: 340px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .div3 {
+      width: 346px;
+      height: 390px;
+      padding: 0 0 0 6px;
+    }
+    .div3 h1 {
+      font-size: 72px;
+      margin: 35px auto 0 0;
+    }
+    .div3 p {
+      width: 280px;
+      font-size: 14px;
+      margin: 19px auto 0 0;
+    }
+    .div4 {
+      width: 340px;
+      height: 406px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .div4 h2 {
+      font-size: 24px;
+      margin: 6px 4px 0 auto;
+    }
+    .div4 .formdiv {
+      text-align: right;
+      margin: 33px 6px 45px;
+    }
+    .input-group input {
+      width: 304px;
+      height: 25.6px;
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 768.5px) and (max-width: 1200px) {
+    .div2 {
+      width: 720px;
+      height: 100%;
+    }
+    .div3 {
+      width: 360px;
+      height: 519px;
+    }
+    .div3 h1 {
+      font-size: 72px;
+      margin: 50px 13px 0 0;
+    }
+    .div3 p {
+      width: 219px;
+      font-size: 14px;
+      margin: 19px auto 50px 0;
+    }
+    .div4 {
+      width: 360px;
+      height: 519px;
+    }
+    .div4 h2 {
+      margin: 90px 8px 0 auto;
+    }
+    .div4 .formdiv {
+      text-align: right;
+      margin: 34px 13px 50px;
+    }
+    .input-group input {
+      width: 311px;
+      height: 25.6px;
+      font-size: 14px;
+    }
+  }
